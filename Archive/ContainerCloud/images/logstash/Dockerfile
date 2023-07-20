@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.14
 
 RUN apk upgrade && apk update && apk add bash wget openjdk8
 
